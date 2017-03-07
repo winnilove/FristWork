@@ -1,0 +1,250 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	font-family:Tahoma;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+.main,.main1,.main2,.main3,.main4{
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width:20%;
+}
+.main{
+	background: url(../img/beijing1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.main1{
+	margin-left: 20%;
+	background: url(../img/lrc.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.main2{
+	margin-left: 40%;
+	background: url(../img/lrc.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.main3{
+	margin-left: 60%;
+	background: url(../img/lrc.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.main4{
+	margin-left: 80%;
+	background: url(../img/lrc.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.icon{
+	position:fixed;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	background: url(../img/beijing2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.yo{
+	position: absolute;
+	z-index: 3;
+	width: 82%;
+	height: 100%;
+	overflow:hidden;
+	margin-left:18%;
+}
+.yo h3{
+	font-size:90px;
+	color: #969efb;
+	font-family: Microsoft YaHei UI;
+	overflow:hidden;
+}
+#on,#on1{
+	line-height:90px;
+	overflow:hidden;
+}
+#on{
+	display: block;
+	margin-left:88%;
+	margin-top: 20%;
+	overflow:hidden;
+}
+#un{
+	display: block;
+	width: 150px;
+	height: 100px;
+	margin-top:12%;
+	margin-left: 25%;
+	overflow:hidden;
+}
+#all3{
+	position: absolute;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+}
+.left{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: rgba(255,255,255,0);
+}
+.right{
+	width: 80%;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+#sun{
+	margin-top: 15%;
+	margin-left: 12%;
+	background:url(../img/back.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sunsite{
+	color: #ffffff;
+	font-size: 55px;
+	font-family: Microsoft YaHei UI;
+}
+#site{
+	width: 110px;
+	height: 120px;
+	margin-left: 20px;
+}
+.sunsite{
+	line-height: 60px;
+}
+#p1{
+	display: block;
+	padding-top: 12px;
+}
+#year{
+	color: #ffffff;
+	line-height: 30px;
+	font-size: 15px;
+}
+#introduce{
+	height:320px;
+	width: 50%;
+	margin-top: 50px;
+}
+.intr{
+	text-indent:20px;
+	font-family: Microsoft YaHei UI;
+	font-size: 14px;
+	color: #fbfbfe;
+	line-height: 25px;
+}
+#last{
+	height: 30px;
+	line-height:30px;
+	font-family:  Microsoft YaHei UI;
+	font-size: 16px;
+	color: #fbfbfe;
+}
+#last a{
+	font-family:  Microsoft YaHei UI;
+	font-size: 16px;
+	color: #fbfbfe;
+	display: inline-block;
+	
+}
+#zp{
+	margin-right: 10px;
+}
+#in{
+	margin-left: 10px;
+}
+#bgone{
+	position: absolute;
+	z-index: 5;
+	top: 68%;
+	width: 80%;
+	height: 15%;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	right: 0px;
+	background-color:#ffffff;
+	overflow: hidden;
+	text-align:right;
+}
+.name{
+	width: 25%;
+	height: 15%;
+	float:left;
+}
+#med{
+	font-family:Microsoft YaHei UI;
+	font-size: 22px;
+	line-height: 85px;
+	color: #1e1e1e;
+	display: block; 
+	margin-right: 20px;
+}
+
+.bg{
+	width: 25%;
+	height: 100%;
+	overflow: hidden;
+	background:url(../img/bgone.png);
+	opacity: 1;
+	float: left;
+	transition:opacity 2s;
+	-moz-transition:opacity 2s; /* Firefox 4 */
+	-webkit-transition:opacity 2s; /* Safari and Chrome */
+	-o-transition:opacity 2s; /* Opera */
+}
+.bg:hover{
+	opacity:0;
+}
+.righttop{
+	width: 80%;
+	float:right;
+	overflow: hidden;
+	margin-left: 20%;
+}
+.bgtop{
+	position:relative;
+	z-index:4;
+	top:-10000px;
+	width: 25%;
+	float: left;
+	background:url(../img/beijing1.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow:hidden;
+
+}
+.topback{
+	height: 100%;
+	width: 84%;
+	background: url(../img/G.png) no-repeat;
+	margin-top: 10%;
+	margin-left: 8%;
+}
+#char{
+	font-family: Microsoft YaHei UI;
+	font-size: 24px;
+	color: #fbfbfe;
+	line-height:60px;
+	display: block;
+	line-height:60px;
+	padding-top: 15px;
+	margin-left: 20%;
+}
+#dsc{
+	text-indent:255px;
+}
+.dis{
+	font-family: Microsoft YaHei UI;
+	font-size: 18px;
+	color: #fbfbfe;
+	text-indent:75px;
+	text-align: left;
+	line-height: 35px;
+}
